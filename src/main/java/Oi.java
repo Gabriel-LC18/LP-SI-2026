@@ -11,6 +11,8 @@ public class Oi {
     public static void main(String [] args){
         String nomeLido = JOptionPane.showInputDialog("Diga seu nome");
         mostreMensagemBoasVindas(nomeLido);
+        int numeroInteiro = Integer.parseInt(JOptionPane.showInputDialog("Quantos anos você têm?"));
+        double alturaUsuario = Double.parseDouble(JOptionPane.showInputDialog("Qual a sua altura?"));
         int x = 10;
         String nome = "Gabriel";
         System.out.println(nome.charAt(0));
@@ -21,6 +23,11 @@ public class Oi {
         double altura = 1.75;
         float numeroReal = 8.87f;
         boolean toComFome = true;
+        System.out.println(3+4);
+        System.out.println(3*4);
+        System.out.println(30.0/4);
+        System.out.println(15%2);
+        System.out.println(15-2);
     }
 
 }
